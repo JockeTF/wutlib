@@ -8,11 +8,6 @@ Floof is floofy!
 ```
 
 ```
-$ python3 wutlib/__main__.py
-Floof is floofy!
-```
-
-```
 $ python3 -m unittest --quiet
 Floof is floofy!
 ----------------------------------------------------------------------
