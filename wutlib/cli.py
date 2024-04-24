@@ -1,3 +1,5 @@
+from sys import argv
+from typing import NoReturn
 from wutlib.floof import FLOOF
 
 
@@ -8,3 +10,7 @@ def cli(*args: str) -> str | None:
     print(f"Floof is {FLOOF}!")
 
     return None
+
+
+def main() -> NoReturn:
+    exit(cli(*argv))

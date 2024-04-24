@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.11"
 
 [tool.poetry.scripts]
-wutlib = "wutlib.__main__:main"
+wutlib = "wutlib.cli:main"
 
 [build-system]
 requires = ["poetry-core"]
