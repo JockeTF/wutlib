@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wutlib"
+version = "0.1.0"
+description = "Demonstrates something floofy"
+authors = ["Joakim Soderlund <joakim.soderlund@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+wutlib = "wutlib.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
